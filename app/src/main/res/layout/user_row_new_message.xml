@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="wrap_content"
+                                             android:scrollbarDefaultDelayBeforeFade="1">
+
+    <TextView
+            android:text="USERNAME"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textColor="@android:color/white"
+            android:id="@+id/username_textview_new_message"
+            android:layout_marginStart="8dp" android:layout_marginLeft="8dp"
+            app:layout_constraintStart_toEndOf="@+id/imageview_new_message" android:layout_marginTop="30dp"
+            app:layout_constraintTop_toTopOf="parent"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp" app:srcCompat="@drawable/rounded_edittext_register_login"
+            app:civ_border_width="1dp"
+            app:civ_border_color="@color/common_google_signin_btn_text_dark_default"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp" android:layout_marginTop="10dp"
+            app:layout_constraintTop_toTopOf="parent" android:id="@+id/imageview_new_message"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="10dp"/>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "256752280910",
+    "firebase_url": "https://wassup-messenger-ar.firebaseio.com",
+    "project_id": "wassup-messenger-ar",
+    "storage_bucket": "wassup-messenger-ar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256752280910:android:87a2bbef8f71bf28",
+        "android_client_info": {
+          "package_name": "com.example.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "256752280910-s6n0p67lkbrcug0b0e670qotob2pjqsl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUlJMGDJxZ78YISAK-DaXHlmE2Cl6e768"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "256752280910-s6n0p67lkbrcug0b0e670qotob2pjqsl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
